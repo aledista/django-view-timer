@@ -1,5 +1,5 @@
 __title__ = 'django-view-timer'
-__version__ = '0.1'
+__version__ = '0.1.4'
 __author__ = 'Alessio Di Stasio'
 __license__ = 'BSD'
 __copyright__ = 'Copyright 2015 Alessio Di Stasio'
