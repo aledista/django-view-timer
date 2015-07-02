@@ -13,7 +13,8 @@ setup(
     license='BSD',
     packages=find_packages(exclude=['tests']),
     install_requires=[
-        'wrapt>=1.10'
+        'wrapt>=1.10',
+        'termcolor==1.1.0',
     ],
     include_package_data=True,
     classifiers=[

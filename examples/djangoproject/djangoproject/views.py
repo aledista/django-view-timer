@@ -1,3 +1,6 @@
+import random
+import time
+
 from django.http import HttpResponse
 from django.views.generic import View
 
@@ -11,7 +14,6 @@ def fun_base_test_view(request):
 
 class ClassBaseTestView(View):
     def get(self, request, *args, **kwargs):
-        i = 0
-        for _ in xrange(10000000):
-            i += 1
+        msecs = random.randint(10, 1000)
+        time.sleep(msecs / float(1000))
         return HttpResponse('class_base')

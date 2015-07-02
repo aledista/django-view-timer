@@ -1,4 +1,4 @@
-__title__ = 'django-profile-time'
+__title__ = 'django-view-timer'
 __version__ = '0.1'
 __author__ = 'Alessio Di Stasio'
 __license__ = 'BSD'
