@@ -5,6 +5,10 @@ from django.http import HttpResponse
 from django.views.generic import View
 
 
+def index(request):
+    return HttpResponse('index')
+
+
 def fun_base_test_view(request):
     i = 0
     for _ in xrange(10000000):

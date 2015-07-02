@@ -21,8 +21,8 @@ class ViewTimeProfiler(wrapt.ObjectProxy):
             module = inspect.getmodule(self.__wrapped__)
             msecs = float(delta.total_seconds() * 1000)
             if DJANGO_VIEW_TIMER_MIN_THRESHOLD <= msecs:
-                level = 'warning' if msecs >= DJANGO_VIEW_TIMER_WARNING_LEVEL else 'info'
-                log = getattr(logger, level)
+                name = 'warn' if msecs >= DJANGO_VIEW_TIMER_WARNING_LEVEL else 'info'
+                log = getattr(logger, name)
                 log(DJANGO_VIEW_TIMER_LOG_FORMAT
                     .format(module=module.__name__,
                             function=self.__wrapped__.__name__,
