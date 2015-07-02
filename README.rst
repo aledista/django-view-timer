@@ -54,9 +54,9 @@ Install using ``pip``\
 in urls.py import
 ::
 
-    from django_view_timer.urls import url as dpt_url
+    from django_view_timer.urls import url as dvt_url
 
     urlpatterns = patterns('',
       url(r'view$', fun_base_test_view, name='fbv_view'),
-      dpt_url(r'profiled_view$', ClassBaseTestView.as_view(), name='cbv_view'),
+      dvt_url(r'profiled_view$', ClassBaseTestView.as_view(), name='cbv_view'),
     )
