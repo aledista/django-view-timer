@@ -1,0 +1,11 @@
+.idea
+*.pyc
+.DS_Store
+.env
+__pycache__
+.idea*
+/node_modules/
+build
+dist
+drf_dark_theme.egg-info
+django_view_timer.egg-info
