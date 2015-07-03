@@ -43,6 +43,11 @@ Default Value:
 
    "View: {view}\tModule: {module}\tFunction: {function}\tExecution Time: {time} msecs"
 
+
+Screenshot
+----------
+.. image:: https://raw.githubusercontent.com/aledista/django-view-timer/master/screenshot.png
+
 Installation
 ============
 
