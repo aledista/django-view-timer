@@ -22,4 +22,4 @@ INSTALLED_APPS = [
 DJANGO_VIEW_TIMER_ENABLED = True
 DJANGO_VIEW_TIMER_MIN_THRESHOLD = 20  # milliseconds
 DJANGO_VIEW_TIMER_WARNING_LEVEL = 300  # milliseconds
-DJANGO_VIEW_TIMER_LOG_FORMAT = "{module} {function} {time}"
+DJANGO_VIEW_TIMER_LOG_FORMAT = "{view} {module} {function} {time}"

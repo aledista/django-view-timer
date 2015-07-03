@@ -41,7 +41,7 @@ Log Format
 Default Value:
 ::
 
-   "Module: {module}\tFunction: {function}\tExecution Time: {time} msecs"
+   "View: {view}\tModule: {module}\tFunction: {function}\tExecution Time: {time} msecs"
 
 Installation
 ============

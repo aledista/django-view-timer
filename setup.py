@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='django-view-timer',
-    version='0.1.9',
+    version='0.2',
     description='Django View Timer',
     long_description=open('README.rst').read(),
     author='Alessio Di Stasio',

@@ -24,6 +24,7 @@ class ViewTimeProfiler(wrapt.ObjectProxy):
                 name = 'warn' if msecs >= DJANGO_VIEW_TIMER_WARNING_LEVEL else 'info'
                 log = getattr(logger, name)
                 log(DJANGO_VIEW_TIMER_LOG_FORMAT
-                    .format(module=module.__name__,
+                    .format(view=args[0],
+                            module=module.__name__,
                             function=self.__wrapped__.__name__,
                             time=msecs))
