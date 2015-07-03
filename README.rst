@@ -22,7 +22,7 @@ Default value: True
 
 Disregards execution time below threshold (in milliseconds)
 
-Default value: 10
+Default value: 20
 
 |
 
